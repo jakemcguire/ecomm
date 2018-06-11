@@ -1,8 +1,28 @@
 table {
 	color: black;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 0 auto;
 }
 
-table, tr, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
+thead {
+	background-color: #939D98;
+	border: 1px solid #939D98;
+	color: #F1F3F4;
+}
+
+tbody > tr {
+	border: 1px solid #939D98;
+}
+
+.description {
+	width: 250px;
+}
+
+.price {
+	width: 100px;
+}
+
+.stock {
+	width: 50px;
 }
